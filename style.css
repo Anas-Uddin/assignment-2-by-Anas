@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 body{
     background-color: rgb(48, 44, 44);
     margin: 0;
@@ -33,3 +33,84 @@ body{
     align-items: center;
     font-family: "Inter", sans-serif;
 }
+#on-mobile{
+    visibility: hidden;
+}
+#on-pc{
+    display: flex;
+}
+#join-club{
+    background-color: rgb(230, 83, 60);
+    width: 169px;
+    height: 54px;
+    border-radius: 40px;
+    border: none;
+}
+#download-app{
+    width: 169px;
+    height: 54px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+.button-font{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+#header-section2{
+    padding-left: 190px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section2-div{
+    width: 520px;
+    height: 440px;
+    padding-top: 69px;
+}
+#first-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px;
+    padding-left: 0;
+}
+#shape{
+    font-family: "Style Script", cursive;
+}
+#section2-div2{
+    background-image: url("images/Images\ 2.png");
+    width: 349px;
+    height: 580px;
+    margin-right: 214px;
+}
+
+
+@media screen and (max-width:576px) {
+    
+    #on-pc{
+        display: none;
+    }
+    #on-mobile{
+        visibility: visible;
+    }
+    .fa-bars{
+        color: white;
+    }
+    #navbar{
+        padding: 50px 20px;
+    }
+    #header-section2{
+        height: 130px;
+        width: 300px;
+    }
+    #section2-div{
+        display: flex;
+        flex-direction: column;
+    }
+    }
