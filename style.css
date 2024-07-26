@@ -72,7 +72,7 @@ body{
     height: 440px;
     padding-top: 69px;
 }
-#first-p{
+#first-p, .paras{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 16px;
@@ -87,7 +87,67 @@ body{
     background-image: url("images/Images\ 2.png");
     width: 349px;
     height: 580px;
-    margin-right: 214px;
+    margin-right: 314px;
+}
+#header-500{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+#div-child1{
+    width: 193px;
+    height: 98px;
+    position: absolute;
+    left: 1107px;
+    top: 360px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    text-align: center;
+}
+#div-child2{
+    position: absolute;
+    width: 207px;
+    height: 96px;
+    left: 734px;
+    top: 600px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#red-circle{
+    color: tomato;
+    width: 40px;
+    height: 40px;
+    left: 787px;
+    top: 584px;
+}
+#header-350{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+}
+#card-p2{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
