@@ -323,13 +323,63 @@ select option{
 input::placeholder{
     padding: 10px;
 }
+#meet-team-div{
+    text-align: center;
+}
+#meet-our-team-h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+#meet-team-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+#div-of-img{
+    display: grid;
+    grid-template-columns:repeat(3,350px);
+    gap: 1em;
+    position: relative;
+    left: 11em;
+    margin: 5em;
+    padding: 1.5em;
+    width: 66vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+#div-of-img div img{
+    border-radius: 12px;
+}
+#div-of-img div div{
+    position: absolute;
+}
+#div-of-img div div h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: .5em;
+    margin-bottom: 0;
+}
+#div-of-img div div p{
+    color: rgb(225, 223, 223);
+    font-family: Inter;
+    font-size: .7em;
+    font-weight: 500;
+    padding-left: .5em;
+}
+#jerome-bell, #cameroon-willy, #darrell-steward{
+    top: 10em;
+}
+#dianne-russel, #cody-fisher, #theresa-webb{
+    top:27em ;
+}
 
 
-
-@media screen and (max-width:591px) { 
-    body{
-        overflow-x: hidden;
-    }
+@media screen and (max-width:591px) {
     #on-pc{
         display: none;
     }
@@ -437,11 +487,11 @@ input::placeholder{
     #bmi-h1{
         position: relative;
         font-size: 2.3em;
-        left: 2.3em;
+        left: 2em;
     }
     #bmi-p{
-        width: 28em;
-        padding-left: 2.9em;
+        width: 90vw;
+        padding-left: 1em;
     }
     #bmi-div-with-bg{
         display: flex;
@@ -449,7 +499,7 @@ input::placeholder{
     }
     table{
         position: relative;
-        left: 5em;
+        left: 3em;
     }
     #div-of-table{
         justify-content: center;
@@ -475,8 +525,52 @@ input::placeholder{
         padding: 0px 1em;
     }
     .activity{
-        width: 20em;
+        width: 16em;
         padding: 0px 3.97em;
     }
+    #div-of-img{
+        display: flex;
+        flex-direction: column;
+        left: 2.5em;
+        margin: 1em;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        align-items: center;
+    }
+    #meet-our-team-h1{
+        font-size: 2.3em;
+    }
+    #meet-team-p{
+        font-size: .8em;
+        width: 80vw;
+        padding-left: 40px;
+    }
+    
+    #jerome-bell, #cameroon-willy, #darrell-steward{
+        left: 3em;
+    }
+    #cameroon-willy{
+        top: 27em;
+    }
+    #darrell-steward{
+        top: 43em;
+    }
+    #dianne-russel, #cody-fisher, #theresa-webb{
+        left: 3em;
+    }
+    #dianne-russel{
+        top: 59.9em;
+    }
+    #cody-fisher{
+        top: 77em;
+    }
+    #theresa-webb{
+        top: 94em;
+    }
+
+    *{
+        overflow-x: hidden;
+    }
+    
 }
 
