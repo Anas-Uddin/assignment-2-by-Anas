@@ -674,7 +674,11 @@ footer div div h3{
         flex-direction: column;
     }
     #footer-first-p{
-        width: 65vw;
+        width: 18em;
+        height: 6.5em;
+        font-size: 15px;
+        text-wrap: wrap;
+        margin: 0;
     }
     footer div hr{
         width: 25em;
