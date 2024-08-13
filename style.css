@@ -371,7 +371,7 @@ input::placeholder{
     font-weight: 500;
     padding-left: .5em;
 }
-#jerome-bell, #cameroon-willy, #darrell-steward{
+#jerome-bell, #cameroon-willi, #darrell-steward{
     top: 10em;
 }
 #dianne-russel, #cody-fisher, #theresa-webb{
@@ -589,26 +589,29 @@ footer div div h3{
         padding-left: 40px;
     }
     
-    #jerome-bell, #cameroon-willy, #darrell-steward{
-        left: 3em;
+    #cameroon-willi, #darrell-steward{
+        left: 1em;
     }
-    #cameroon-willy{
-        top: 27em;
+    #cameroon-willi{
+        top: 10em;
     }
     #darrell-steward{
-        top: 43em;
+        top: 25.7em;
     }
-    #dianne-russel, #cody-fisher, #theresa-webb{
-        left: 3em;
+    #cody-fisher, #theresa-webb{
+        left: 1em;
     }
-    #dianne-russel{
+    /* #dianne-russel{
         top: 59.9em;
-    }
+    } */
     #cody-fisher{
-        top: 77em;
+        top: 44em;
     }
     #theresa-webb{
-        top: 94em;
+        top: 60.5em;
+    }
+    #div-of-img1, #div-of-img4{
+        display: none;
     }
     footer{
         position: relative;
