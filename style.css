@@ -405,6 +405,53 @@ footer div div h3{
     text-align: center;
     padding: 3em;
 }
+#unique-section{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(92, 92, 91);
+}
+#unique-first-h2{
+    color: rgb(44, 33, 22);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+#goggins, #unique-second-h2{
+    color: rgb(44, 33, 22);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+#goggins{
+    background: url("images/army\ color.jpg");
+    color: rgb(191, 199, 205);
+}
+#unique-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 77px;
+}
+#buy-h3{
+    color: rgb(44, 33, 22);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+#cant-hurt-me{
+    position: relative;
+    bottom: 6em;
+    color: rgb(252, 240, 230);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
 
 
 @media screen and (max-width:591px) {
@@ -485,7 +532,7 @@ footer div div h3{
     #main-div1-h1{
         font-size: 2em;
         width: 318px;
-        height: 38px;
+        height: 40px;
     }
     #main-div1-p1{
         font-size: 1em;
@@ -638,6 +685,17 @@ footer div div h3{
         position: relative;
         right: 2.6em;
         width: 16em;
+    }
+    #unique-section{
+        flex-direction: column;
+    }
+    #unique-div2{
+        justify-content: flex-start;
+        margin-bottom: 3em;
+        margin-top: 0;
+        width: 21em;
+        position: relative;
+        right: 2em;
     }
 
 
