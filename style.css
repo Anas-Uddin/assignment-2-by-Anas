@@ -452,8 +452,6 @@ footer div div h3{
     text-align: center;
 }
 
-
-
 @media screen and (max-width:591px) {
     #on-pc{
         display: none;
@@ -676,8 +674,7 @@ footer div div h3{
     #footer-first-p{
         width: 18em;
         height: 6.5em;
-        font-size: 15px;
-        text-wrap: wrap;
+        font-size: 13px;
         margin: 0;
     }
     footer div hr{
@@ -700,6 +697,9 @@ footer div div h3{
         width: 21em;
         position: relative;
         right: 2em;
+    }
+    #footer-first-h1{
+        font-size: 3.5em;
     }
 
 
